@@ -24,11 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let all2=json.message
     for(let f in all2)
-
     {
-    console.log(json.message)
-
-    document.getElementById("dog-breeds").innerHtml=f
+      document.getElementById("dog-breeds").innerHtml=f
 
 
   }
