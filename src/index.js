@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     for(let f in all2)
     {
-      let d = document.getElementById("dog-breeds").innerHTML=`<li>${f}</li>`
+      let d = document.getElementById("dog-breeds").innerText=`<li>${f}</li>`
   console.log(f)
 
 
