@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
    let innerHTML=`<li>${f}</li>`;
 
-    
+
 
     console.log(d)
 
