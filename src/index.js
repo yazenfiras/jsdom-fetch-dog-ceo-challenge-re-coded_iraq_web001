@@ -25,7 +25,11 @@ document.addEventListener('DOMContentLoaded', function () {
     let all2=json.message
     for(let f in all2)
     {
-    let d = document.getElementById("dog-breeds").innerHTML=`<li>${f}</li>`;
+    let d = document.getElementById("dog-breeds");
+
+    d.appendChild(`<li>${f}</li>`)
+
+    
 
     console.log(d)
 
