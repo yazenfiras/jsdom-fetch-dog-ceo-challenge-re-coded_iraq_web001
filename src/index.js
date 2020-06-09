@@ -21,31 +21,28 @@ document.addEventListener('DOMContentLoaded',()=> {
   }).then(json=>{
 console.log(json)
    let all2=json.message
-
-
-
-    for(let f in all2)
+   for(let f in all2)
     {
-      let d = document.getElementById("dog-breeds")
+      let ul= document.getElementById("dog-breeds")
 
       let li=document.createElement("li")
         li.classList.add("newcolor")
 
       li.innerHTML=`${f}`
 
-      d.appendChild(li)
-
+      ul.appendChild(li)
 
  li.addEventListener("click",()=>li.style.color="red")
+
  let names=document.getElementById("breed-dropdown")
 
- names.addEventListener("change",(e)=>{
+  names.addEventListener("change",(e)=>{
 
 
    li.remove();
    if(li.innerText.charAt(0)==e.target.value){
 
-     d.appendChild(li)
+     ul.appendChild(li)
 
 
    }
