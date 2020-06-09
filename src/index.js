@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
       li.innerHTML=`${f}`
 
       d.appendChild(li)
-      
-      
+
+
   console.log(f)
 
 
