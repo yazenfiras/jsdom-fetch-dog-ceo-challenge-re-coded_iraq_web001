@@ -31,14 +31,14 @@ document.addEventListener('DOMContentLoaded', function () {
       let d = document.getElementById("dog-breeds")
 
       let li=document.createElement("li")
-        li.classList.add("li")
+        li.classList.add("newcolor")
 
       li.innerHTML=`${f}`
 
       d.appendChild(li)
 
 
-  let m=  li.addEventListener("click",()=>li.style.color="red")
+  let m=  li.addEventListener("click",()=>newcolor.style.color="red")
 
 
   }
