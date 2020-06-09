@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let m=  li.addEventListener("click",()=>{
 
         newcolor.style.color="red"
-  
+
 
    })
 
