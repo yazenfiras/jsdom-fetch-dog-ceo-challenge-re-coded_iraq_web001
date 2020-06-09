@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
       let li=document.createElement("li")
         li.classList.add("newcolor")
-        
+
       li.innerHTML=`${f}`
 
       d.appendChild(li)
 
-    
+
     li.addEventListener("click",()=>{
 
         newcolor.style.color="red"
