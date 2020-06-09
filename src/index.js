@@ -11,11 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let newImage=document.createElement("img")
     newImage.src=`${i}`
     imgsDiv.appendChild(newImage)
-
-  // let img = document.getElementById("img").src=i
-
   }
-
   })
 
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
@@ -28,10 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let all2=json.message
 
+    
+
     for(let f in all2)
     {
       let d = document.getElementById("dog-breeds").innerHTML=`<li>${f}</li>`
-  console.log(f)
+  console.log(all2)
 
 
   }
