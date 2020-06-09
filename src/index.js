@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let all=json.message
   for (let i of all)
   {
+    
    let img = document.getElementById("img").src=i
     
   }
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     for(let f in all2)
     
     {
-    console.log(json.message)
+    console.log(json)
    
   }
   
