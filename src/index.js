@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
     let d = document.getElementById("dog-breeds");
 
-   let innerHTML=`<li>${f}</li>`;
+   d.innerHTML=`<li>${f}</li>`;
 
 
 
