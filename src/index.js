@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
      d.appendChild(li)
 
-     
+
    }
  })
 
@@ -64,4 +64,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 })
-
