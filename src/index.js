@@ -12,17 +12,15 @@ document.addEventListener('DOMContentLoaded',()=> {
     imgsDiv.appendChild(newImage)
   }
   })
+  
   //end of the first chalenge//
 
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
-
   fetch(breedUrl).then(res=>{
     return res.json()
-  })
-
-  .then(json=>{
-
-    let all2=json.message
+  }).then(json=>{
+console.log(json)
+   let all2=json.message
 
 
 
