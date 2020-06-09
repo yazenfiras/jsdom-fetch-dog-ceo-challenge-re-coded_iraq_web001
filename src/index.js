@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded',()=> {
     imgsDiv.appendChild(newImage)
   }
   })
-  
+
   //end of the first chalenge//
 
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
