@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    console.log(f)
+    console.log(d)
 
 
   }
