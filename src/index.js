@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
       li.classList.add("newcolor")
     li.addEventListener("click",()=>{
 
-        li.newcolor.style.color="red"
+        newcolor.style.color="red"
       })
 
       console.log(d)
