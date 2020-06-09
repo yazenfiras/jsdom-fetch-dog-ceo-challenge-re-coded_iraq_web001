@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',()=> {
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
-  return fetch(imgUrl).then(res=>{return res.json()})
+   fetch(imgUrl).then(res=>{return res.json()})
   .then(json=>
    {
   let all=json.message
