@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 
   .then(json=>{
+      let d = document.getElementById("dog-breeds")
 
     let all2=json.message
 
