@@ -21,24 +21,16 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 
   .then(json=>{
-      let d = document.getElementById("dog-breeds")
 
     let all2=json.message
 
     for(let f in all2)
     {
-      let d = document.getElementById("dog-breeds")
-
-   d.innerHTML=`<li>${f}</li>`;
-
-
-
-    console.log(d)
+      let d = document.getElementById("dog-breeds").innerHTML=`<li>${f}</li>`
+  console.log(d)
 
 
   }
-  d.innerHTML=`<li>${f}</li>`
-
 
    })
 
