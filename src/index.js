@@ -41,6 +41,18 @@ document.addEventListener('DOMContentLoaded', function () {
  li.addEventListener("click",()=>li.style.color="red")
  let names=document.getElementById("breed-dropdown")
 
+ names.addEventListener("change",(e)=>{
+
+
+   li.remove();
+   if(li.innerText.charAt(0)==e.target.value){
+
+     d.appendChild(li)
+
+     
+   }
+ })
+
 
 
 
@@ -52,3 +64,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 })
+
