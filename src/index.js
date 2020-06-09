@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     for(let f in all2)
 
     {
-    console.log(json)
+    console.log(json.message)
 
   }
 
