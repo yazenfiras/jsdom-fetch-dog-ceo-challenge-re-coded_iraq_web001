@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
   let all=json.message
   for (let i of all)
   {
+    let imgsDiv=document.getElementById("dog-image-container");
+    let newImage=document.createElement("img")
 
    let img = document.getElementById("img").src=i
 
