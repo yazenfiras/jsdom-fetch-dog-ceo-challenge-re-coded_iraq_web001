@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     d.appendChild(`<li>${f}</li>`)
 
-    
+
 
     console.log(d)
 
