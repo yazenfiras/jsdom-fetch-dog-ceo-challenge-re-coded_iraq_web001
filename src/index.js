@@ -9,8 +9,10 @@ document.addEventListener('DOMContentLoaded', function () {
   {
     let imgsDiv=document.getElementById("dog-image-container");
     let newImage=document.createElement("img")
+    newImage.src=`${i}`
+    imgsDiv.appendChild(newImage)
 
-   let img = document.getElementById("img").src=i
+  // let img = document.getElementById("img").src=i
 
   }
 
