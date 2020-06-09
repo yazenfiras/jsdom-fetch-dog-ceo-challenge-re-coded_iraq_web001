@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log(json.message)
 
     document.getElementById("dog-breeds").innerHtml=f
-    
+
 
   }
 
