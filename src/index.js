@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         newcolor.style.color="red"
       })
 
-      console.log(d)
+      //console.log(d)
       console.log(m)
 
 
