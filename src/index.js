@@ -38,11 +38,10 @@ document.addEventListener('DOMContentLoaded', function () {
       d.appendChild(li)
 
 
-
+  let m=  li.addEventListener("click",()=>newcolor.style.color="red")
 
 
   }
-  let m=  li.addEventListener("click",()=>newcolor.style.color="red")
 
 
    })
