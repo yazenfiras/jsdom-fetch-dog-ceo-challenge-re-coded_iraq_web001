@@ -31,11 +31,13 @@ document.addEventListener('DOMContentLoaded', function () {
       let d = document.getElementById("dog-breeds")
 
       let li=document.createElement("li")
+        li.classList.add("newcolor")
+        
       li.innerHTML=`${f}`
 
       d.appendChild(li)
 
-      li.classList.add("newcolor")
+    
     li.addEventListener("click",()=>{
 
         newcolor.style.color="red"
