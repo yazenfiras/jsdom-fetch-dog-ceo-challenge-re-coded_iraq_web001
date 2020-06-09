@@ -38,7 +38,10 @@ document.addEventListener('DOMContentLoaded', function () {
       d.appendChild(li)
 
 
-  let m=  li.addEventListener("click",()=>li.style.color="red")
+ li.addEventListener("click",()=>li.style.color="red")
+ let names=document.getElementById("breed-dropdown")
+
+ 
 
 
   }
