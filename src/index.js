@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
       let d = document.getElementById("dog-breeds")
     for(let f in all2)
     {
-  
+
    d.innerHTML=`<li>${f}</li>`;
 
 
