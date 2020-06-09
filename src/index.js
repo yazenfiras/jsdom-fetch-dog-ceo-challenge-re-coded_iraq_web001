@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     for(let f in all2)
     {
       let d = document.getElementById("dog-breeds").innerHTML=`<li>${f}</li>`
-  console.log(all2)
+  console.log(f)
 
 
   }
