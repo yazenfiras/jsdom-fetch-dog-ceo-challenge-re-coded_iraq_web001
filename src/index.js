@@ -35,8 +35,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
       d.appendChild(li)
 
+      li.classList.add("newcolor")
 
-  console.log(f)
+      console.log(d)
+      console.log(li)
+      
+      
+
+
 
 
   }
