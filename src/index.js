@@ -23,9 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
   .then(json=>{
 
     let all2=json.message
-      let d = document.getElementById("dog-breeds")
+      
     for(let f in all2)
     {
+      let d = document.getElementById("dog-breeds")
 
    d.innerHTML=`<li>${f}</li>`;
 
