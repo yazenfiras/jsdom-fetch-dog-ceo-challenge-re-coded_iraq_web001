@@ -29,6 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
     for(let f in all2)
     {
       let d = document.getElementById("dog-breeds").innerHTML=`<li>${f}</li>`
+
+      let li=document.createElement("li")
+      li.innerHTML=`${f}`
+
+      d.appendChild(li)
+      
+      
   console.log(f)
 
 
